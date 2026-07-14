@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms 📋</title>
+</head>
+
+<body>
+  <h1>http://127.0.0.1:5500/Forms.html</h1>
+  <h1>http://127.0.0.1:5500/Forms.html?username=Monty&email=monstermonty%40gmail.com&password=montylovesmanygirlks&dob=2026-07-14&dob=2026-07-14T09%3A18&dob=2026-07&dob=09%3A18&dob=2026-W29&gender=Male&skills=Html&skills=%27Css&photo=ChatGPT+Image+Jul+9%2C+2026%2C+06_09_16+PM.png&country=Germany&feedback=Good&color=%23e8dee0&brightness=100</h1>
+  <form action="" method="">
+    <fieldset>
+      <legend>Registration Form 🔥</legend>
+      <!-- !TYPE="TEXT" -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name 🥳" name="username" minlength="3" maxlength="8" required>
+      <br><br>
+      <!-- !TYPE="EMAIL" -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email 📧" name="email" autofocus>
+      <br><br>
+      <!-- !TYPE="PASSWORD" -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <br><br>
+      <!-- !TYPE="NUMBER" -->
+      <label for="age">Age:</label>
+      <input type="number" id="age" value="age" min="18" max="25">
+      <br><br>
+      <!-- !TYPE="TEL" -->
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone">
+      <br><br>
+      <!-- !TYPE="DATE|DATETIME-LOCAL|MONTH|TIME|WEEK" -->
+      <label for="dob">Dob:</label>
+      <input type="date" name="dob" min="2026-01-01" max="2026-07-31">
+      <input type="datetime-local" name="dob">
+      <input type="month" name="dob">
+      <input type="time" name="dob">
+      <input type="week" name="dob">
+      <br><br>
+      <!-- !TYPE="RADIO" -->
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male" checked>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+      <br><br>
+      <!-- !TYPE="CHECKBOX" -->
+      <label>Skills:</label>
+      <input type="checkbox" id="html" name="skills" value="Html" checked>
+      <label for="html">Html</label>
+      <input type="checkbox" id="css" name="skills" value="'Css">
+      <label for="css">Css</label>
+      <input type="checkbox" id="js" name="skills" value="Js">
+      <label for="js">Js</label>
+      <input type="checkbox" id="react" name="skills" value="ReactJs">
+      <label for="react">ReactJS</label>
+      <br><br>
+      <!-- !TYPE="FILE" -->
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" name="photo">
+      <br><br>
+      <!-- ! DROPDOWN -->
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option hidden>-- Select Country --</option>
+        <option value="India" selected>India</option>
+        <option value="Usa">Usa</option>
+        <option value="Australia">Australia</option>
+        <option value="Russia">Russia</option>
+        <option value="Germany">Germany</option>
+      </select>
+      <br><br>
+      <!-- !TEXTAREA -->
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" rows="5" cols="50" name="feedback"></textarea>
+      <br><br>
+      <!-- !TYPE="COLOR" -->
+      <label for="color">Select Color:</label>
+      <input type="color" id="color" name="color">
+      <br><br>
+      <!-- !TYPE="RANGE" -->
+      <label for="range">Brightness:</label>
+      <input type="range" value="10" name="brightness">
+      <br><br>
+      <!-- !TYPE="SUBMIT"-->
+      <input type="submit" value="Register 😍">
+      <!-- !TYPE = "RESET" -->
+      <input type="reset" value="Clear">
+    </fieldset>
+  </form>
+</body>
+
+</html>
